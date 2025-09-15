@@ -6,6 +6,7 @@ public class User implements Serializable {
 	private Integer uid;
 	private String name;
 	private String age;
+	private Long mobileNum;
 
 	public Integer getUid() {
 		return uid;
@@ -29,6 +30,14 @@ public class User implements Serializable {
 
 	public void setAge(String age) {
 		this.age = age;
+	}
+
+	public Long getMobileNum() {
+		return mobileNum;
+	}
+
+	public void setMobileNum(Long mobileNum) {
+		this.mobileNum = mobileNum;
 	}
 
 }
